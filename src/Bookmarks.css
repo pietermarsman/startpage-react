@@ -1,0 +1,12 @@
+.bookmarks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bookmark {
+    flex: 0 1 content;
+    padding-right: 1em;
+    margin: 2px;
+}

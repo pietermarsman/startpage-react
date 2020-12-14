@@ -1,6 +1,6 @@
 import './App.css';
-import Bookmarks from "./Bookmarks";
-import bookmark_list from "./bookmark_list";
+import BookmarkPane from "./Bookmarks";
+import bookmarksList from "./bookmark_list";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header>
         Bookmarks
       </header>
-      <Bookmarks bookmarks={bookmark_list}></Bookmarks>
+      <BookmarkPane bookmarks={bookmarksList}/>
     </div>
   );
 }
